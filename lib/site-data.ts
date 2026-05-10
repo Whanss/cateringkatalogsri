@@ -14,7 +14,7 @@ export const menuItems = [
     portion: "Loyang / potong",
     description:
       "Lembut, harum santan, dan berlapis cantik untuk hantaran maupun acara keluarga.",
-    image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=900&h=700&fit=crop&auto=format&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kue%20Lapis%20Legit.JPG?width=900",
   },
   {
     name: "Nasi Kotak",
@@ -23,7 +23,7 @@ export const menuItems = [
     portion: "Per kotak",
     description:
       "Porsi rapi dengan lauk rumahan premium, cocok untuk rapat, syukuran, dan arisan.",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=900&h=700&fit=crop&auto=format&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nasi%20bungkus%20dengan%20lauk%20terpisah.jpg?width=900",
   },
   {
     name: "Risoles",
@@ -32,7 +32,7 @@ export const menuItems = [
     portion: "Isi 20 pcs",
     description:
       "Kulit tipis, isian gurih melimpah, digoreng segar agar tetap renyah saat disajikan.",
-    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=900&h=700&fit=crop&auto=format&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Risol%20Sayur.jpg?width=900",
   },
   {
     name: "Klepon Premium",
@@ -50,7 +50,7 @@ export const menuItems = [
     portion: "10-15 porsi",
     description:
       "Nasi gurih beraroma rempah dengan lauk lengkap untuk syukuran dan ulang tahun.",
-    image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=900&h=700&fit=crop&auto=format&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nasi%20kuning%20mewah.jpg?width=900",
   },
   {
     name: "Paket Snack Box",
@@ -59,7 +59,7 @@ export const menuItems = [
     portion: "Per box",
     description:
       "Kombinasi kue manis dan gurih yang rapi untuk rapat, seminar, dan pengajian.",
-    image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=900&h=700&fit=crop&auto=format&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fried%20snacks.jpg?width=900",
   },
   {
     name: "Brownies Panggang",
@@ -68,7 +68,7 @@ export const menuItems = [
     portion: "Loyang",
     description:
       "Padat, legit, dan coklatnya terasa dalam, cocok untuk hampers dan meja tamu.",
-    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=900&h=700&fit=crop&auto=format&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chocolate%20brownie.jpg?width=900",
   },
   {
     name: "Pastel Isi Ayam",
@@ -77,7 +77,7 @@ export const menuItems = [
     portion: "Isi 20 pcs",
     description:
       "Kulit renyah dengan isian ayam, sayur, dan telur yang gurih seimbang.",
-    image: "https://images.unsplash.com/photo-1574484284002-952d92456975?w=900&h=700&fit=crop&auto=format&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kue%20Pastel%20Makanan%20Indonesia.jpg?width=900",
   },
   {
     name: "Paket Prasmanan Mini",
@@ -86,15 +86,15 @@ export const menuItems = [
     portion: "Per porsi",
     description:
       "Menu rumahan lengkap untuk acara kecil dengan tampilan bersih dan elegan.",
-    image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=900&h=700&fit=crop&auto=format&q=80",
+    image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fruit%20and%20Indonesia%20Traditional%20Food%20Buffet%20Prasmanan.jpg?width=900",
   },
 ];
 
 export const bestSellers = menuItems.slice(0, 3);
 
-export const heroImage = "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=1400&h=900&fit=crop&auto=format&q=80";
+export const heroImage = "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kue%20Lapis%20Legit.JPG?width=1400";
 
-export const highlightImage = "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1100&h=700&fit=crop&auto=format&q=80";
+export const highlightImage = "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fruit%20and%20Indonesia%20Traditional%20Food%20Buffet%20Prasmanan.jpg?width=1100";
 
 export const advantages = [
   {

@@ -10,6 +10,7 @@ import {
   advantages,
   bestSellers,
   heroImage,
+  highlightImage,
   whatsappLink,
   whatsappOrderLink,
 } from "@/lib/site-data";
