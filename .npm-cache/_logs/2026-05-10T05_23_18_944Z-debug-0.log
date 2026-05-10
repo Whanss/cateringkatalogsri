@@ -1,0 +1,353 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.0
+2 info using node@v22.12.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\~\catering\.npmrc
+5 silly config load:file:C:\Users\ACER\.npmrc
+6 silly config load:file:C:\Users\ACER\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:E:\~\catering\.npm-cache\_logs\2026-05-10T05_23_18_944Z-
+10 verbose logfile E:\~\catering\.npm-cache\_logs\2026-05-10T05_23_18_944Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\@img\\colour' ]
+15 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\@img\\sharp-win32-x64' ]
+16 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\@next\\env' ]
+17 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\@next\\swc-win32-x64-msvc' ]
+18 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\@swc\\helpers' ]
+19 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\@types\\node' ]
+20 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\@types\\react-dom' ]
+21 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\detect-libc' ]
+22 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\framer-motion' ]
+23 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\motion-dom' ]
+24 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\motion-utils' ]
+25 silly reify mark retired [
+25 silly reify   'E:\\~\\catering\\node_modules\\next',
+25 silly reify   'E:\\~\\catering\\node_modules\\.bin\\next',
+25 silly reify   'E:\\~\\catering\\node_modules\\.bin\\next.cmd',
+25 silly reify   'E:\\~\\catering\\node_modules\\.bin\\next.ps1'
+25 silly reify ]
+26 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\react' ]
+27 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\react-dom' ]
+28 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\scheduler' ]
+29 silly reify mark retired [
+29 silly reify   'E:\\~\\catering\\node_modules\\semver',
+29 silly reify   'E:\\~\\catering\\node_modules\\.bin\\semver',
+29 silly reify   'E:\\~\\catering\\node_modules\\.bin\\semver.cmd',
+29 silly reify   'E:\\~\\catering\\node_modules\\.bin\\semver.ps1'
+29 silly reify ]
+30 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\sharp' ]
+31 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\styled-jsx' ]
+32 silly reify mark retired [ 'E:\\~\\catering\\node_modules\\undici-types' ]
+33 silly reify moves {
+33 silly reify   'E:\\~\\catering\\node_modules\\@img\\colour': 'E:\\~\\catering\\node_modules\\@img\\.colour-jPiBPZO7',
+33 silly reify   'E:\\~\\catering\\node_modules\\@img\\sharp-win32-x64': 'E:\\~\\catering\\node_modules\\@img\\.sharp-win32-x64-lxQvjkV9',
+33 silly reify   'E:\\~\\catering\\node_modules\\@next\\env': 'E:\\~\\catering\\node_modules\\@next\\.env-vK9mNVrx',
+33 silly reify   'E:\\~\\catering\\node_modules\\@next\\swc-win32-x64-msvc': 'E:\\~\\catering\\node_modules\\@next\\.swc-win32-x64-msvc-rlmNodDW',
+33 silly reify   'E:\\~\\catering\\node_modules\\@swc\\helpers': 'E:\\~\\catering\\node_modules\\@swc\\.helpers-SKNzwi6d',
+33 silly reify   'E:\\~\\catering\\node_modules\\@types\\node': 'E:\\~\\catering\\node_modules\\@types\\.node-DJQG4wxl',
+33 silly reify   'E:\\~\\catering\\node_modules\\@types\\react-dom': 'E:\\~\\catering\\node_modules\\@types\\.react-dom-U30LIJSC',
+33 silly reify   'E:\\~\\catering\\node_modules\\detect-libc': 'E:\\~\\catering\\node_modules\\.detect-libc-i3thQBS5',
+33 silly reify   'E:\\~\\catering\\node_modules\\framer-motion': 'E:\\~\\catering\\node_modules\\.framer-motion-Cr7DG7Nl',
+33 silly reify   'E:\\~\\catering\\node_modules\\motion-dom': 'E:\\~\\catering\\node_modules\\.motion-dom-ITAE1Ims',
+33 silly reify   'E:\\~\\catering\\node_modules\\motion-utils': 'E:\\~\\catering\\node_modules\\.motion-utils-ABTTpNAI',
+33 silly reify   'E:\\~\\catering\\node_modules\\next': 'E:\\~\\catering\\node_modules\\.next-z4LtqkaU',
+33 silly reify   'E:\\~\\catering\\node_modules\\.bin\\next': 'E:\\~\\catering\\node_modules\\.bin\\.next-Dqu3NCNi',
+33 silly reify   'E:\\~\\catering\\node_modules\\.bin\\next.cmd': 'E:\\~\\catering\\node_modules\\.bin\\.next.cmd-znEql5vT',
+33 silly reify   'E:\\~\\catering\\node_modules\\.bin\\next.ps1': 'E:\\~\\catering\\node_modules\\.bin\\.next.ps1-pQtVQGe3',
+33 silly reify   'E:\\~\\catering\\node_modules\\react': 'E:\\~\\catering\\node_modules\\.react-PMglyTuC',
+33 silly reify   'E:\\~\\catering\\node_modules\\react-dom': 'E:\\~\\catering\\node_modules\\.react-dom-EGZBy701',
+33 silly reify   'E:\\~\\catering\\node_modules\\scheduler': 'E:\\~\\catering\\node_modules\\.scheduler-W6FNqvrG',
+33 silly reify   'E:\\~\\catering\\node_modules\\semver': 'E:\\~\\catering\\node_modules\\.semver-PYAmLhLR',
+33 silly reify   'E:\\~\\catering\\node_modules\\.bin\\semver': 'E:\\~\\catering\\node_modules\\.bin\\.semver-D5AWyZkx',
+33 silly reify   'E:\\~\\catering\\node_modules\\.bin\\semver.cmd': 'E:\\~\\catering\\node_modules\\.bin\\.semver.cmd-4czM91dH',
+33 silly reify   'E:\\~\\catering\\node_modules\\.bin\\semver.ps1': 'E:\\~\\catering\\node_modules\\.bin\\.semver.ps1-QTXxGje5',
+33 silly reify   'E:\\~\\catering\\node_modules\\sharp': 'E:\\~\\catering\\node_modules\\.sharp-wR2GocPg',
+33 silly reify   'E:\\~\\catering\\node_modules\\styled-jsx': 'E:\\~\\catering\\node_modules\\.styled-jsx-mvsDiJxX',
+33 silly reify   'E:\\~\\catering\\node_modules\\undici-types': 'E:\\~\\catering\\node_modules\\.undici-types-ehwQX4vp'
+33 silly reify }
+34 silly audit bulk request {
+34 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+34 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+34 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+34 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+34 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+34 silly audit   '@next/env': [ '14.2.35' ],
+34 silly audit   '@next/swc-darwin-arm64': [ '14.2.33' ],
+34 silly audit   '@next/swc-darwin-x64': [ '14.2.33' ],
+34 silly audit   '@next/swc-linux-arm64-gnu': [ '14.2.33' ],
+34 silly audit   '@next/swc-linux-arm64-musl': [ '14.2.33' ],
+34 silly audit   '@next/swc-linux-x64-gnu': [ '14.2.33' ],
+34 silly audit   '@next/swc-linux-x64-musl': [ '14.2.33' ],
+34 silly audit   '@next/swc-win32-arm64-msvc': [ '14.2.33' ],
+34 silly audit   '@next/swc-win32-ia32-msvc': [ '14.2.33' ],
+34 silly audit   '@next/swc-win32-x64-msvc': [ '14.2.33' ],
+34 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+34 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+34 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+34 silly audit   '@swc/counter': [ '0.1.3' ],
+34 silly audit   '@swc/helpers': [ '0.5.5' ],
+34 silly audit   '@types/node': [ '25.6.2' ],
+34 silly audit   '@types/react': [ '19.2.14' ],
+34 silly audit   'any-promise': [ '1.3.0' ],
+34 silly audit   anymatch: [ '3.1.3' ],
+34 silly audit   arg: [ '5.0.2' ],
+34 silly audit   autoprefixer: [ '10.5.0' ],
+34 silly audit   'baseline-browser-mapping': [ '2.10.29' ],
+34 silly audit   'binary-extensions': [ '2.3.0' ],
+34 silly audit   braces: [ '3.0.3' ],
+34 silly audit   browserslist: [ '4.28.2' ],
+34 silly audit   busboy: [ '1.6.0' ],
+34 silly audit   'camelcase-css': [ '2.0.1' ],
+34 silly audit   'caniuse-lite': [ '1.0.30001792' ],
+34 silly audit   chokidar: [ '3.6.0' ],
+34 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+34 silly audit   'client-only': [ '0.0.1' ],
+34 silly audit   commander: [ '4.1.1' ],
+34 silly audit   cssesc: [ '3.0.0' ],
+34 silly audit   csstype: [ '3.2.3' ],
+34 silly audit   didyoumean: [ '1.2.2' ],
+34 silly audit   dlv: [ '1.1.3' ],
+34 silly audit   'electron-to-chromium': [ '1.5.353' ],
+34 silly audit   'es-errors': [ '1.3.0' ],
+34 silly audit   escalade: [ '3.2.0' ],
+34 silly audit   'fast-glob': [ '3.3.3' ],
+34 silly audit   fastq: [ '1.20.1' ],
+34 silly audit   'fill-range': [ '7.1.1' ],
+34 silly audit   'fraction.js': [ '5.3.4' ],
+34 silly audit   fsevents: [ '2.3.3' ],
+34 silly audit   'function-bind': [ '1.1.2' ],
+34 silly audit   'graceful-fs': [ '4.2.11' ],
+34 silly audit   hasown: [ '2.0.3' ],
+34 silly audit   'is-binary-path': [ '2.1.0' ],
+34 silly audit   'is-core-module': [ '2.16.2' ],
+34 silly audit   'is-extglob': [ '2.1.1' ],
+34 silly audit   'is-glob': [ '4.0.3' ],
+34 silly audit   'is-number': [ '7.0.0' ],
+34 silly audit   jiti: [ '1.21.7' ],
+34 silly audit   'js-tokens': [ '4.0.0' ],
+34 silly audit   lilconfig: [ '3.1.3' ],
+34 silly audit   'lines-and-columns': [ '1.2.4' ],
+34 silly audit   'loose-envify': [ '1.4.0' ],
+34 silly audit   'lucide-react': [ '0.468.0' ],
+34 silly audit   merge2: [ '1.4.1' ],
+34 silly audit   micromatch: [ '4.0.8' ],
+34 silly audit   mz: [ '2.7.0' ],
+34 silly audit   nanoid: [ '3.3.12' ],
+34 silly audit   next: [ '14.2.35' ],
+34 silly audit   postcss: [ '8.4.31', '8.5.14' ],
+34 silly audit   'node-releases': [ '2.0.38' ],
+34 silly audit   'normalize-path': [ '3.0.0' ],
+34 silly audit   'object-assign': [ '4.1.1' ],
+34 silly audit   'object-hash': [ '3.0.0' ],
+34 silly audit   'path-parse': [ '1.0.7' ],
+34 silly audit   picocolors: [ '1.1.1' ],
+34 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+34 silly audit   pify: [ '2.3.0' ],
+34 silly audit   pirates: [ '4.0.7' ],
+34 silly audit   'postcss-import': [ '15.1.0' ],
+34 silly audit   'postcss-js': [ '4.1.0' ],
+34 silly audit   'postcss-load-config': [ '6.0.1' ],
+34 silly audit   'postcss-nested': [ '6.2.0' ],
+34 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+34 silly audit   'postcss-value-parser': [ '4.2.0' ],
+34 silly audit   'queue-microtask': [ '1.2.3' ],
+34 silly audit   react: [ '18.3.1' ],
+34 silly audit   'react-dom': [ '18.3.1' ],
+34 silly audit   'read-cache': [ '1.0.0' ],
+34 silly audit   readdirp: [ '3.6.0' ],
+34 silly audit   resolve: [ '1.22.12' ],
+34 silly audit   reusify: [ '1.1.0' ],
+34 silly audit   'run-parallel': [ '1.2.0' ],
+34 silly audit   scheduler: [ '0.23.2' ],
+34 silly audit   'source-map-js': [ '1.2.1' ],
+34 silly audit   streamsearch: [ '1.1.0' ],
+34 silly audit   'styled-jsx': [ '5.1.1' ],
+34 silly audit   sucrase: [ '3.35.1' ],
+34 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+34 silly audit   tailwindcss: [ '3.4.19' ],
+34 silly audit   thenify: [ '3.3.1' ],
+34 silly audit   'thenify-all': [ '1.6.0' ],
+34 silly audit   tinyglobby: [ '0.2.16' ],
+34 silly audit   fdir: [ '6.5.0' ],
+34 silly audit   'to-regex-range': [ '5.0.1' ],
+34 silly audit   'ts-interface-checker': [ '0.1.13' ],
+34 silly audit   tslib: [ '2.8.1' ],
+34 silly audit   typescript: [ '5.9.3' ],
+34 silly audit   'undici-types': [ '7.19.2' ],
+34 silly audit   'update-browserslist-db': [ '1.2.3' ],
+34 silly audit   'util-deprecate': [ '1.0.2' ]
+34 silly audit }
+35 verbose reify failed optional dependency E:\~\catering\node_modules\fsevents
+36 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\fsevents' ]
+37 verbose reify failed optional dependency E:\~\catering\node_modules\@next\swc-win32-ia32-msvc
+38 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\@next\\swc-win32-ia32-msvc' ]
+39 verbose reify failed optional dependency E:\~\catering\node_modules\@next\swc-win32-arm64-msvc
+40 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\@next\\swc-win32-arm64-msvc' ]
+41 verbose reify failed optional dependency E:\~\catering\node_modules\@next\swc-linux-x64-musl
+42 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\@next\\swc-linux-x64-musl' ]
+43 verbose reify failed optional dependency E:\~\catering\node_modules\@next\swc-linux-x64-gnu
+44 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\@next\\swc-linux-x64-gnu' ]
+45 verbose reify failed optional dependency E:\~\catering\node_modules\@next\swc-linux-arm64-musl
+46 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\@next\\swc-linux-arm64-musl' ]
+47 verbose reify failed optional dependency E:\~\catering\node_modules\@next\swc-linux-arm64-gnu
+48 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\@next\\swc-linux-arm64-gnu' ]
+49 verbose reify failed optional dependency E:\~\catering\node_modules\@next\swc-darwin-x64
+50 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\@next\\swc-darwin-x64' ]
+51 verbose reify failed optional dependency E:\~\catering\node_modules\@next\swc-darwin-arm64
+52 silly reify mark deleted [ 'E:\\~\\catering\\node_modules\\@next\\swc-darwin-arm64' ]
+53 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz. Extracting by manifest.
+54 silly tarball no local data for streamsearch@https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz. Extracting by manifest.
+55 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+56 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+57 silly tarball no local data for @swc/counter@https://registry.npmjs.org/@swc/counter/-/counter-0.1.3.tgz. Extracting by manifest.
+58 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+59 silly tarball no local data for busboy@https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz. Extracting by manifest.
+60 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.19.2.tgz. Extracting by manifest.
+61 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+62 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz. Extracting by manifest.
+63 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz. Extracting by manifest.
+64 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-25.6.2.tgz. Extracting by manifest.
+65 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.3.1.tgz. Extracting by manifest.
+66 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-14.2.35.tgz. Extracting by manifest.
+67 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.5.tgz. Extracting by manifest.
+68 silly tarball no local data for @next/swc-win32-x64-msvc@https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.2.33.tgz. Extracting by manifest.
+69 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-14.2.35.tgz. Extracting by manifest.
+70 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 415ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 420ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 433ms (cache miss)
+73 http fetch GET 200 https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz 436ms (cache miss)
+74 http fetch GET 200 https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz 570ms (cache miss)
+75 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 664ms
+76 silly audit report {
+76 silly audit report   next: [
+76 silly audit report     {
+76 silly audit report       id: 1112593,
+76 silly audit report       url: 'https://github.com/advisories/GHSA-9g9p-9gw9-jx7f',
+76 silly audit report       title: 'Next.js self-hosted applications vulnerable to DoS via Image Optimizer remotePatterns configuration',
+76 silly audit report       severity: 'moderate',
+76 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.10',
+76 silly audit report       cwe: [Array],
+76 silly audit report       cvss: [Object]
+76 silly audit report     },
+76 silly audit report     {
+76 silly audit report       id: 1112653,
+76 silly audit report       url: 'https://github.com/advisories/GHSA-h25m-26qc-wcjf',
+76 silly audit report       title: 'Next.js HTTP request deserialization can lead to DoS when using insecure React Server Components',
+76 silly audit report       severity: 'high',
+76 silly audit report       vulnerable_versions: '>=13.0.0 <15.0.8',
+76 silly audit report       cwe: [Array],
+76 silly audit report       cvss: [Object]
+76 silly audit report     },
+76 silly audit report     {
+76 silly audit report       id: 1114897,
+76 silly audit report       url: 'https://github.com/advisories/GHSA-ggv3-7p47-pfv8',
+76 silly audit report       title: 'Next.js: HTTP request smuggling in rewrites',
+76 silly audit report       severity: 'moderate',
+76 silly audit report       vulnerable_versions: '>=9.5.0 <15.5.13',
+76 silly audit report       cwe: [Array],
+76 silly audit report       cvss: [Object]
+76 silly audit report     },
+76 silly audit report     {
+76 silly audit report       id: 1114940,
+76 silly audit report       url: 'https://github.com/advisories/GHSA-3x4c-7xq6-9pq8',
+76 silly audit report       title: 'Next.js: Unbounded next/image disk cache growth can exhaust storage',
+76 silly audit report       severity: 'moderate',
+76 silly audit report       vulnerable_versions: '>=10.0.0 <15.5.14',
+76 silly audit report       cwe: [Array],
+76 silly audit report       cvss: [Object]
+76 silly audit report     },
+76 silly audit report     {
+76 silly audit report       id: 1116376,
+76 silly audit report       url: 'https://github.com/advisories/GHSA-q4gf-8mx6-v5v3',
+76 silly audit report       title: 'Next.js has a Denial of Service with Server Components',
+76 silly audit report       severity: 'high',
+76 silly audit report       vulnerable_versions: '>=13.0.0 <15.5.15',
+76 silly audit report       cwe: [Array],
+76 silly audit report       cvss: [Object]
+76 silly audit report     }
+76 silly audit report   ],
+76 silly audit report   postcss: [
+76 silly audit report     {
+76 silly audit report       id: 1117015,
+76 silly audit report       url: 'https://github.com/advisories/GHSA-qx2v-qp2m-jg93',
+76 silly audit report       title: 'PostCSS has XSS via Unescaped </style> in its CSS Stringify Output',
+76 silly audit report       severity: 'moderate',
+76 silly audit report       vulnerable_versions: '<8.5.10',
+76 silly audit report       cwe: [Array],
+76 silly audit report       cvss: [Object]
+76 silly audit report     }
+76 silly audit report   ]
+76 silly audit report }
+77 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+78 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+79 http fetch GET 200 https://registry.npmjs.org/@swc/counter/-/counter-0.1.3.tgz 664ms (cache miss)
+80 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz 815ms (cache miss)
+81 http fetch GET 200 https://registry.npmjs.org/postcss 392ms (cache revalidated)
+82 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:343873 disposed:false
+83 http fetch GET 200 https://registry.npmjs.org/next 474ms (cache revalidated)
+84 silly packumentCache corgi:https://registry.npmjs.org/next set size:24945663 disposed:false
+85 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz 2739ms (cache miss)
+86 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-7.19.2.tgz 2755ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.3.1.tgz 2851ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz 3252ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-25.6.2.tgz 3363ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-14.2.35.tgz 9980ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.468.0.tgz 13470ms (cache miss)
+92 http fetch GET 200 https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-14.2.33.tgz 17432ms (cache miss)
+93 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.5.tgz 19159ms (cache miss)
+94 http fetch GET 200 https://registry.npmjs.org/next/-/next-14.2.35.tgz 21866ms (cache miss)
+95 warn cleanup Failed to remove some directories [
+95 warn cleanup   [
+95 warn cleanup     'E:\\~\\catering\\node_modules\\@next\\.swc-win32-x64-msvc-rlmNodDW',
+95 warn cleanup     [Error: EPERM: operation not permitted, unlink 'E:\~\catering\node_modules\@next\.swc-win32-x64-msvc-rlmNodDW\next-swc.win32-x64-msvc.node'] {
+95 warn cleanup       errno: -4048,
+95 warn cleanup       code: 'EPERM',
+95 warn cleanup       syscall: 'unlink',
+95 warn cleanup       path: 'E:\\~\\catering\\node_modules\\@next\\.swc-win32-x64-msvc-rlmNodDW\\next-swc.win32-x64-msvc.node'
+95 warn cleanup     }
+95 warn cleanup   ]
+95 warn cleanup ]
+96 silly ADD node_modules/streamsearch
+97 silly ADD node_modules/lucide-react
+98 silly ADD node_modules/loose-envify
+99 silly ADD node_modules/js-tokens
+100 silly ADD node_modules/graceful-fs
+101 silly ADD
+102 silly ADD node_modules/busboy
+103 silly ADD node_modules/@swc/counter
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 silly ADD
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 silly ADD
+112 silly CHANGE node_modules/undici-types
+113 silly CHANGE node_modules/styled-jsx
+114 silly REMOVE node_modules/sharp
+115 silly REMOVE node_modules/semver
+116 silly CHANGE node_modules/scheduler
+117 silly CHANGE node_modules/react-dom
+118 silly CHANGE node_modules/react
+119 silly CHANGE node_modules/next
+120 silly REMOVE node_modules/motion-utils
+121 silly REMOVE node_modules/motion-dom
+122 silly REMOVE node_modules/framer-motion
+123 silly REMOVE node_modules/detect-libc
+124 silly REMOVE node_modules/@types/react-dom
+125 silly CHANGE node_modules/@types/node
+126 silly CHANGE node_modules/@swc/helpers
+127 silly CHANGE node_modules/@next/swc-win32-x64-msvc
+128 silly CHANGE node_modules/@next/env
+129 silly REMOVE node_modules/@img/sharp-win32-x64
+130 silly REMOVE node_modules/@img/colour
+131 verbose cwd E:\~\catering
+132 verbose os Windows_NT 10.0.26200
+133 verbose node v22.12.0
+134 verbose npm  v10.9.0
+135 verbose exit 0
+136 info ok
