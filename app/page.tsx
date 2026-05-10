@@ -9,7 +9,6 @@ import { FloatingWhatsApp, SiteNav } from "@/components/SiteNav";
 import {
   advantages,
   bestSellers,
-  heroImage,
   highlightImage,
   whatsappLink,
   whatsappOrderLink,
@@ -202,13 +201,45 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
             className="order-1 lg:order-2"
           >
-            <motion.img
-              src={heroImage}
-              alt="Aneka kue dan hidangan catering rumahan Dapur SRI"
-              animate={{ y: [-10, 10, -10] }}
-              transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-              className="h-[420px] w-full rounded-3xl object-cover shadow-soft sm:h-[540px] lg:h-[620px]"
-            />
+            {/* Kolase 3 foto */}
+            <div className="grid h-[420px] grid-cols-2 grid-rows-2 gap-3 sm:h-[540px] lg:h-[620px]">
+              {/* Foto besar kiri — suasana meja makan */}
+              <motion.div
+                className="row-span-2 overflow-hidden rounded-2xl"
+                whileHover={{ scale: 1.02 }}
+                transition={{ duration: 0.4 }}
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=700&h=900&fit=crop&auto=format&q=80"
+                  alt="Hidangan catering Dapur SRI"
+                  className="h-full w-full object-cover"
+                />
+              </motion.div>
+              {/* Foto kanan atas — kue cantik tersaji */}
+              <motion.div
+                className="overflow-hidden rounded-2xl"
+                whileHover={{ scale: 1.02 }}
+                transition={{ duration: 0.4 }}
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500&h=400&fit=crop&auto=format&q=80"
+                  alt="Kue rumahan Dapur SRI"
+                  className="h-full w-full object-cover"
+                />
+              </motion.div>
+              {/* Foto kanan bawah — nasi kotak rapi */}
+              <motion.div
+                className="overflow-hidden rounded-2xl"
+                whileHover={{ scale: 1.02 }}
+                transition={{ duration: 0.4 }}
+              >
+                <img
+                  src="https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=500&h=400&fit=crop&auto=format&q=80"
+                  alt="Sajian nasi Dapur SRI"
+                  className="h-full w-full object-cover"
+                />
+              </motion.div>
+            </div>
           </motion.div>
         </div>
       </section>
